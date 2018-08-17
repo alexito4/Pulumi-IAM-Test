@@ -1,0 +1,9 @@
+name: permissions
+description: A project to test Pulumi permissions
+runtime: nodejs
+template:
+  description: A minimal AWS TypeScript program
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-east-1
